@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Pomodoro</title>
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div id="display">25:00</div>
+        <div class="row">
+            <button class="column button" id="play">Play</button>
+            <div class="column setTimer">
+                <div id="study">< < < Study Time</div>
+                <span id="timerNeg" class="posNeg neg">-</span>
+                <span id="setTime">0</span>
+                <span id="timerPos" class="posNeg pos">+</span>
+            </div>
+        </div>
+        <div class="row">
+            <button class="column button" id="stop">Stop</button>
+            <div class="column setTimer">
+                <div id="break">< < < Break Time</div>
+                <span id="breakNeg" class="posNeg neg">-</span>
+                <span id="setBreak">0</span>
+                <span id="breakPos" class="posNeg pos">+</span>
+            </div>
+        </div>
+        <div class="row">
+            <button class="column button" id="pause">Pause</button>
+            <button class="column button" id="reset">Reset</button>
+        </div>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+
+</html>
